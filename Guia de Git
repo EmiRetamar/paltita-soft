@@ -1,0 +1,26 @@
+Pasos para subir archivos al repositorio con git:
+
+1er Paso: Posicionarme en el directorio de mi repositrio local
+2do Paso: git init
+3er Paso: git add 'Nombre del Archivo'
+4to Paso: git commit -m 'Comentario'
+5to Paso: git remote add origin https://github.com/feliarana/Paltita-Soft.git
+6to Paso: git push origin master
+
+Si no me deja tengo que hacer un pull para tener mi repositorio local actualizado.
+
+git pull origin master
+
+y luego volver al paso 6.
+
+Para eliminar una conexion a un repositorio remoto teclear:
+
+git remote rm origin
+
+Paginas de ayuda:
+
+http://www.cristalab.com/tutoriales/introduccion-a-github-en-linux-ubuntu-c106086l/
+
+https://victorhckinthefreeworld.wordpress.com/2012/09/26/git-y-github-tutorial-basicode-uso-bajo-gnulinux/
+
+http://rogerdudler.github.io/git-guide/index.es.html
